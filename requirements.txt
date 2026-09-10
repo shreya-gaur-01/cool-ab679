@@ -1,1 +1,6 @@
+streamlit
+pillow
 langchain-core
+langchain-openai
+langgraph
+pydantic
