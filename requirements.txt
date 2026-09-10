@@ -5,3 +5,4 @@ langchain-openai
 langgraph
 pydantic
 langchain_groq
+tensorflow
