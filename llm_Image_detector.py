@@ -7,6 +7,7 @@ from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, Field
 from langgraph.graph import StateGraph, START, END
+import streamlit as st
 
 # %%
 # --- 1. Define the Shared State ---
