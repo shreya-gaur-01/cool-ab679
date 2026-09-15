@@ -50,7 +50,7 @@ def image_router_node(state: RouterState) -> dict:
     
     from langchain_groq import ChatGroq
     # 1. Initialize your LLM
-    groq_api = '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'
+    groq_api=st.secrets['groq_api']
     llm = ChatGroq(model="qwen/qwen3.6-27b", api_key=groq_api,
                 max_tokens=900,
                temperature=0.1).with_structured_output(ModelSelection)
